@@ -1,0 +1,25 @@
+# File with git-branching commands
+
+## Lists all local branches
+```sh
+git branch
+```
+
+## Creates a new branch
+```sh
+git branch [branch-name]
+```
+
+## Checkout (switch to) a specific branch
+```sh
+git checkout [branch-name]
+```
+
+## Create and checkout a branch
+```sh
+git checkout -b [branch-name]
+```
+
+## Deletes a branch
+```sh
+git branch -d [branch-name]
