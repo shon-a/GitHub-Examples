@@ -1,0 +1,19 @@
+# Git Remote 
+
+A git remote represent the reference to remote location where a copy of the respository is hosted.
+
+## Lists all remote respositories along with their URLs.
+git remote -v
+
+git remote add [name] [URL]
+git remote remove [name]
+git remote rename [old-name] [new-name]
+
+## Pushes a branch and its commits to the specific remote.
+git push [remote-name] [branch]
+
+# Pulls updates from a remote branch.
+git pull [remote-name] [branch]
+
+# Fetch updates without pulling.
+git fetch [remote name]
