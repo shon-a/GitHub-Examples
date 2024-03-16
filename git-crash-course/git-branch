@@ -1,0 +1,36 @@
+# File with git-branching commands
+
+## Lists all local branches
+```sh
+git branch
+```
+
+## Creates a new branch
+```sh
+git branch [branch-name]
+```
+
+## Checkout (switch to) a specific branch
+```sh
+git checkout [branch-name]
+```
+
+## Create and checkout a branch
+```sh
+git checkout -b [branch-name]
+```
+
+## Deletes a branch
+```sh
+git branch -d [branch-name]
+```
+# Common Git Workflow
+
+```sh
+git checkout -b my-new-branch
+#... make changes to the files which will require them to be pushed from this branch back to origin
+git add .
+git commit -m "Description of the changes I made."
+git push -u origin my-new-branch
+#pushes changes upstream from the newly created branch back to origin
+```
