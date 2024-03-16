@@ -1,0 +1,37 @@
+### Files to be staged
+```sh
+git add my-file
+git add . #add all files
+git rm my-other-file #remove a specific file
+```
+
+### Commits staged changes with a message
+```sh 
+git commit -m "Commit message"
+```
+
+### Automatically stages all tracked, modified files before the commit
+```sh
+git commit -a -m "Commit message"
+```
+
+### Modifies the most recent commit
+```sh
+git commit --amend
+```
+
+### Creates an empty commit, useful as a placeholder
+
+```sh
+git commit -m "Initial commit" --allow-empty
+```
+
+### Commits with a specific author
+```sh
+git commit -m "Message" --author="Author Name <email@example.com>"
+```
+
+### Checkout a specific comment based on SHA hash
+```sh
+git checkout <SHA HASH VALUE>
+```
